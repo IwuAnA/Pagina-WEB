@@ -1,0 +1,183 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 18px; /* El tamaño de la fuente principal en el tag <p></p> */
+    animation: fondo 10s infinite;
+    color: #333333; /* El color del texto*/ 
+}
+
+.Frase1 {
+    text-align: center;
+}
+
+.IMG1{
+    animation: moverse 3s infinite;
+    padding-left: 10%;
+}
+
+h1 {
+    padding-top: 1%;
+
+    animation: movimiento 3s infinite; 
+
+    color: #e01d2e; /* El color de la cabecera */
+    font-size: 40px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+    text-align: center;
+}
+
+.Subtitulo1 {
+    animation: color1 3s infinite;
+    color:deeppink;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 9%;
+}
+
+.Frase2 {
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+.Lista1{
+    font-size: 25px;
+    padding-left: 17%;
+}
+
+.IMG2{
+    animation: moverse 5s infinite;
+    padding-left:10%;
+}
+
+.Subtitulo2{
+    padding-left: 9%;
+    animation: moverse 4s infinite;
+
+}
+
+.Frase3{
+    padding-left: 15%;
+    font-size: 30px;
+}
+
+.Lista2{
+    font-size: 25px;
+    padding-left: 17%;
+}
+
+.IMG3{
+    animation: moverse 6s infinite;
+    padding-left:10%;
+}
+
+.Subtitulo3{
+    padding-left: 10%;
+    animation: color2 3s infinite;
+}
+
+.frame1{
+    padding-left: 10%;
+}
+
+.Referencias{
+    padding-left: 60%;
+    color: white;
+}
+
+@keyframes fondo{
+    
+    0%{
+        background-color: red;
+    }
+    14%{
+        background-color: orange;
+    }
+    28%{
+        background-color: yellow;
+    }
+    42%{
+        background-color: green;
+    }
+    56%{
+        background-color: blue;
+    }
+    70%{
+        background-color: indigo;
+    }
+    84%{
+        background-color: violet;
+    }
+    100%{
+        background-color: red;
+    }
+}
+
+@keyframes moverse {
+
+    10%{
+        padding-left: 10%;
+    }
+    
+    60%{
+        padding-left: 60%;
+    }
+
+}
+
+@keyframes color1 {
+    0%{
+        color: green;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: green;
+    }
+    
+}
+
+@keyframes movimiento {
+    1%{
+        color: black;
+        font-size: 20px;
+        padding-bottom: 1%;
+    }
+    50%{
+        color: gray;
+        font-size: 40px;
+        padding-bottom: 3%;
+    }
+    100%{
+        color: black;
+        font-size: 20px;
+        padding-bottom: 1%;
+    }
+}
+
+@keyframes color2{
+    0%{
+        color: white;
+    }
+    50%{
+        color: gray;
+    }
+    100%{
+        color: white;
+    }
+}
+
+etiqueta {
+    background-color: lightblue;    /* Color de fondo */
+    font-family: 'Verdana', sans-serif; /* Tipo de letra */
+    color: navy;                   /* Color del texto */
+    font-size: 18px;               /* Tamaño de la letra */
+    font-style: italic;            /* Estilo de la letra */
+    font-weight: bold;             /* Grosor de la letra */
+    text-align: center;            /* Alineación del texto */
+    padding: 20px;                 /* Espaciado interno */
+    margin: 10px;                  /* Espaciado externo */
+    border: 2px solid black;       /* Borde */
+    opacity: 0.9;                  /* Opacidad */
+    background-image: url('ruta/a/la/imagen.jpg'); /* Imagen de fondo */
+    text-shadow: 2px 2px 4px #000000; /* Sombra del texto */
+  }
